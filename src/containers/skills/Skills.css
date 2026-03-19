@@ -1,0 +1,95 @@
+.skills-main-div {
+  display: flex;
+  overflow: hidden;
+}
+
+.skills-header {
+  font-size: 60px;
+  line-height: normal;
+  font-family: "Google Sans Regular";
+  text-align: center;
+}
+
+.skills-text {
+  font-size: 20px;
+}
+
+.skills-text-div {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.skills-main-div {
+  display: flex;
+  align-items: center; /* Vertically centers the text with the image */
+  justify-content: space-between;
+  margin-bottom: 50px; /* Adds consistent spacing between ML and Front-End sections */
+}
+
+.skills-image-div {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-image-div img {
+  width: 100%;
+  max-width: 450px; /* Matches both images to the same max size */
+  height: 350px;    /* Forces a consistent height to prevent layout jumps */
+  object-fit: contain; 
+}
+
+.skills-heading {
+  font-size: 56px;
+  font-weight: 400;
+  font-family: "Google Sans Regular";
+  line-height: normal;
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .skills-heading {
+    font-size: 40px;
+  }
+  .skills-header {
+    font-size: 50px;
+  }
+  /* .skills-image-div > img {
+    margin-top: 0px;
+  } */
+}
+@media (max-width: 768px) {
+  .skills-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+  .skills-header {
+    font-size: 30px;
+  }
+  .greeting-text-p {
+    font-size: 16px;
+    line-height: normal;
+  }
+  .skills-main-div {
+    flex-direction: column;
+  }
+  .skills-text-div {
+    margin-left: 0px;
+    margin: 20px;
+  }
+  .skills-text {
+    font-size: 16px;
+  }
+  .skills-text-subtitle {
+    font-size: 16px;
+    text-align: center;
+  }
+  .skills-image-div {
+    /* display: none; */
+    order: 2;
+  }
+  .skills-image-div > * {
+    margin-top: 0px;
+  }
+}
