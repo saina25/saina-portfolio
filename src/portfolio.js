@@ -26,7 +26,7 @@ const greeting = {
     "Bridging the gap between theory and innovation by building scalable AI systems and end-to-end products designed for social and technical excellence.",
   resumeLink:
     "/resume.pdf",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
+  portfolio_repository: "https://github.com/saina25/saina-portfolio",
   githubProfile: "https://github.com/saina25",
 };
 
