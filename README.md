@@ -2,7 +2,7 @@
 **B.Tech CSE Student at Lovely Professional University (Class of 2027)**
 
 A data-driven developer dedicated to building scalable AI systems and intelligent end-to-end products. Currently maintaining an **8.89 CGPA** and specializing in Artificial Intelligence and Machine Learning.
-**Portfolio Link:** (saina-portfolio.netlify.app)
+**Portfolio Link:** [](saina-portfolio.netlify.app)
 
 ---
 
